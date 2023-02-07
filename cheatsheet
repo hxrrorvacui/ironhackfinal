@@ -1,0 +1,11 @@
+<!--Check git satus-->
+
+git status
+
+<!--Shortcut to add changes to GitHub-->
+
+git add . && git commit -m " " && git push origin master
+
+<!--Launch host app-->
+
+npm run dev
