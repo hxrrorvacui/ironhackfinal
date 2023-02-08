@@ -116,19 +116,19 @@ A lo largo del proyecto utilizamos enlaces como recursos para finalizarlo exitos
 
 - [x] Create the repository
 - [x] Import repository to GitHub
+- [x] Link Supabase correctly
 - [x] Read & review boilerplate
-- [x] Plan next steps
-- [x] Start README
+- [x] Begin README structure
 
 #### Day Two
 
 ###### Wednesday 08, February 2023
 
 - [x] Supabase profile table \* needs columns
-- [x] sign up
-- [x] sign in
-- [x] sign out
-- [x] sign out
+- [x] Sign up
+- [x] Sign in
+- [x] Sign out
+- [x] Sign out
 - [ ] CRUD
 
 #### Day Three
