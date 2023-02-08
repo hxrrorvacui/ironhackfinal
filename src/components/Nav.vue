@@ -41,19 +41,30 @@ const buttonText = "Todo app";
 
 // constant to save a variable that will get the user from store with a computed function imported from vue
 // const getUser = computed(() => useUserStore().user);
-const getUser = useUserStore().user;
+const getUser = computed(() => useUserStore().user);
 
 // constant that calls user email from the useUSerStore
-const userEmail = getUser.email;
+const userEmail = ref("");
+async function getEmail() {
+  await useUserStore().fetchUser();
+  userEmail.value = useUserStore().user.email;
+}
+getEmail();
 
 // async function that calls the signOut method from the useUserStore and pushes the user back to the Auth view.
 const redirect = useRouter();
 
 const signOut = async () => {
+  console.log("ha entrado en la función");
   try{
     // call the user store and send the users info to backend to signOut
+   await useUserStore().signOut();
     // then redirect user to the homeView
-  } catch (error) {}
+    redirect.push({path: "/auth/login"});
+  } catch (error) {
+    console.error(error);
+    throw error;
+  }
 };
 
 </script>

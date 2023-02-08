@@ -3,24 +3,92 @@
   <template>
 
   <div class="container">
-    <h3 class="header-title">Log In to ToDo App</h3>
-    <p class="header-subtitle">Estamos en la ruta de login. Aquí deberíais crear un form con la lógica correspondiente para que este permita al usuario loguearse con su email y su contraseña. Miraros la lógica de SignUp si necesitáis inspiración :)</p>
-    <p>Dont have an account? <PersonalRouter :route="route" :buttonText="buttonText" class="sign-up-link"/></p>
-  </div>
+    <div class="header">
+      <div class="header description">
+        <h3 class="header-title">Welcome to OrganizeMe</h3>
+       <p class="header-subtitle">your go-to to do list</p> 
+       <p>Go ahead and sign in:</p>
+      </div> <!--// end of div header description //  -->
+    </div> <!--// end of div header //  -->
+
+    <form @submit.prevent="signIn" class="form-sign-in">
+      <div class="form">
+        <div class="form-input">
+          <label class="input-field-label">E-mail</label>
+          <input
+            type="email"
+            class="input-field"
+            placeholder="example@gmail.com"
+            id="email"
+            v-model="email"
+            required
+          />
+        </div>
+        <div class="form-input">
+          <label class="input-field-label">Password</label>
+          <input
+            type="password"
+            class="input-field"
+            placeholder="**********"
+            id="password"
+            v-model="password"
+            required
+          />
+        </div>
+        <button class="button" type="submit">Sign In</button>
+        <p>
+          Don't have an account?
+          <PersonalRouter
+            :route="route"
+            :buttonText="buttonText"
+            class="sign-up-link"
+          />
+        </p>
+      </div>
+    </form>
+
+    <div v-show="errorMsg">{{errorMsg}}</div>
+
+  </div> <!--// end of div container //  -->
 
 </template>
 
 <script setup>
+import { ref, computed } from "vue";
 import PersonalRouter from "./PersonalRouter.vue";
+import { supabase } from "../supabase";
+import { useRouter } from "vue-router";
+import { useUserStore } from "../stores/user";
+import { storeToRefs } from "pinia";
 
 // Route Variables
 const route = "/auth/signup";
 const buttonText = "Sign Up";
 
+// Input Fields
+const email = ref("");
+const password = ref("");
+
+
+// Error Message
+const errorMsg = ref("");
+
+// Router to push user once SignedUp to Log In
+const redirect = useRouter();
+
 // Arrow function to Signin user to supaBase
 const signIn = async () => {
-  try {} catch (error) {}
+try {
+await useUserStore().signIn(email.value, password.value);
+redirect.push({ path: "/" });
+} catch (error) {
+errorMsg.value = error.message;
+setTimeout(() => {
+errorMsg.value = null;
+}, 5000);
+}
 };
+
 </script>
 
 <style></style>
