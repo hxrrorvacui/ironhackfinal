@@ -129,13 +129,15 @@ A lo largo del proyecto utilizamos enlaces como recursos para finalizarlo exitos
 - [x] Sign in
 - [x] Sign out
 - [x] Sign out
-- [ ] CRUD
 
 #### Day Three
 
 ###### Thursday 09, February 2023
 
-- [x]
+- [ ] Create Task
+- [ ] Read Task
+- [ ] Update Task
+- [ ] Delete Task
 
 #### Day Four
 
