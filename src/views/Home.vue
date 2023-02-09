@@ -8,7 +8,7 @@
     </div>
     <NewTask @new-task-emit="addTaskSupabase" />
     <h1>Tasks:</h1>
-    <TaskItem v-for="task in tasks" :key="task.id" :task="task" />
+    <TaskItem @delete-emit="deleteTask" v-for="task in tasks" :key="task.id" :task="task" />
   </div>
   <!-- <p v-for="task in taskStore.tasksArr" :key="task.id">{{ task }}</p> -->
 </template>
@@ -35,14 +35,19 @@ getTasks();
   onUpdated(()=> {
   getTasks()
  });
+
 //testing emit with diego, to test add @test-emit="miCoolFunction" to <NewTask ...> in template & uncomment line 15 in newTask.vue => <!-- <button @click="testFunction">test emit</button> -->
     // const miCoolFunction = (miInfoRecibidaEjemplo) => {
     //   alert(`Hola ${miInfoRecibidaEjemplo}`);
     // };
-// function to send tasks to supabase
+const deleteTask = () => {
+  console.log("deleted");
+}
+    // function to send tasks to supabase
 const addTaskSupabase = (newTask) => {
   alert(`${newTask.title}
  ${newTask.title}`);
+ 
  // variables para guardar cara clave/key+valor del objeto del emit dentro se su variable correspondiente para poder pasarle segun la logica de la funcion que se conecta con la base de datos en la tienda de task.js con nombre addTask
  let newTaskTitle = newTask.title;
  let newTaskDescription = newTask.description;
