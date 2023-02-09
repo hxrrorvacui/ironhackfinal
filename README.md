@@ -134,8 +134,8 @@ A lo largo del proyecto utilizamos enlaces como recursos para finalizarlo exitos
 
 ###### Thursday 09, February 2023
 
-- [ ] Create Task
-- [ ] Read Task
+- [x] Create Task
+- [x] Read Task
 - [ ] Update Task
 - [ ] Delete Task
 
