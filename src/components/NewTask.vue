@@ -8,7 +8,7 @@
             <input type="text" placeholder="Add a Task Title - Listen to Kendrick Lamar" v-model="name">
         </div>
         <div class="input-field">
-            <input type="text" placeholder="Add a Task Description - Look up Kendrick Lamar's FEAR album on spotify and listen to the whole album." v-model="description">
+            <input type="text" placeholder="Add a Task Description - Look up Kendrick Lamar's FEAR album on spotify and listen to the whole album." v-model="description" @keypress.enter="addTask">
         </div>
         <button @click="addTask" class="button">Add</button>
         <br>
