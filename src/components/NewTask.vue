@@ -12,7 +12,7 @@
         </div>
         <button @click="addTask" class="button">Add</button>
         <br>
-        <button @click="testFunction">test emit</button>
+        <!-- <button @click="testFunction">test emit</button> -->
     </div>
 </template>
 

@@ -1,7 +1,7 @@
 <template>
 <div class="container">
     <h3>{{task.title}}</h3>
-    <button @click="deleteTask">Delete {{task.title}}</button>
+    <button @click="deleteTask">Delete</button>
 </div>
 </template>
 

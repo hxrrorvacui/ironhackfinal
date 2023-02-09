@@ -6,7 +6,7 @@
       <h3>Your account:</h3>
       <router-link to="/account">Account</router-link>
     </div>
-    <NewTask @test-emit="miCoolFunction" @new-task-emit="addTaskSupabase" />
+    <NewTask @new-task-emit="addTaskSupabase" />
     <h1>Tasks:</h1>
     <TaskItem v-for="task in tasks" :key="task.id" :task="task" />
   </div>
@@ -35,10 +35,10 @@ getTasks();
   onUpdated(()=> {
   getTasks()
  });
-
-const miCoolFunction = (miInfoRecibidaEjemplo) => {
-  alert(`Hola ${miInfoRecibidaEjemplo}`);
-};
+//testing emit with diego, to test add @test-emit="miCoolFunction" to <NewTask ...> in template & uncomment line 15 in newTask.vue => <!-- <button @click="testFunction">test emit</button> -->
+    // const miCoolFunction = (miInfoRecibidaEjemplo) => {
+    //   alert(`Hola ${miInfoRecibidaEjemplo}`);
+    // };
 // function to send tasks to supabase
 const addTaskSupabase = (newTask) => {
   alert(`${newTask.title}
