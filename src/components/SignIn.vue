@@ -1,15 +1,13 @@
-<!-- COMPONENTE BOILERPLATE -->
- 
-  <template>
+<template>
 
   <div class="container">
     <div class="header">
-      <div class="header description">
-        <h3 class="header-title">Welcome to OrganizeMe</h3>
-       <p class="header-subtitle">your go-to to do list</p> 
-       <p>Go ahead and sign in:</p>
-      </div> <!--// end of div header description //  -->
-    </div> <!--// end of div header //  -->
+      <div class="header-description">
+        <h3 class="header-title">Welcome to CHOOSE NAME</h3>
+          <p class="header-subtitle">Start organizing your tasks!</p>
+          <p>Sign In</p>
+        </div><!--end of header description div-->
+    </div> <!--end of header div-->
 
     <form @submit.prevent="signIn" class="form-sign-in">
       <div class="form">
@@ -37,7 +35,7 @@
         </div>
         <button class="button" type="submit">Sign In</button>
         <p>
-          Don't have an account?
+          Have an account?
           <PersonalRouter
             :route="route"
             :buttonText="buttonText"
@@ -45,11 +43,15 @@
           />
         </p>
       </div>
-    </form>
+  </form>
 
-    <div v-show="errorMsg">{{errorMsg}}</div>
+  <div v-show="errorMsg">{{errorMsg}}</div>
 
-  </div> <!--// end of div container //  -->
+
+  </div> <!--end of container div-->
+
+
+
 
 </template>
 
@@ -88,7 +90,6 @@ errorMsg.value = null;
 }, 5000);
 }
 };
-
 </script>
 
 <style></style>

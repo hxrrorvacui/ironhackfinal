@@ -11,6 +11,8 @@
             <input type="text" placeholder="Add a Task Description - Look up Kendrick Lamar's FEAR album on spotify and listen to the whole album." v-model="description">
         </div>
         <button @click="addTask" class="button">Add</button>
+        <br>
+        <button @click="testFunction">test emit</button>
     </div>
 </template>
 
@@ -18,11 +20,6 @@
 import { ref } from "vue";
 import { useTaskStore } from "../stores/task"   
 
-const taskStore = useTaskStore();
-
-// variables para los valors de los inputs
-const name = ref('');
-const description = ref('');
 
 // constant to save a variable that holds an initial false boolean value for the errorMessage container that is conditionally displayed depending if the input field is empty
 const showErrorMessage = ref(false);
@@ -30,11 +27,31 @@ const showErrorMessage = ref(false);
 // const constant to save a variable that holds the value of the error message
 const errorMessage = ref(null);
 
+// --
+// --
+// --
+// --
+// --
+// --
+
+// var para guardar mi metodo nativo de VUE que es autimportado, es decir no tengo que referenciarlo en "ïmport" como hacemos con el ref en la linea 18, este metodo tienes este syntax de aca:^
+const emit = defineEmits(["testEmit", "newTaskEmit"])
+
+const testFunction = () => {
+    emit("testEmit", name.value)
+}
+
+// var para guardar el uso de la ta tienda de tarea en este archivo.
+const taskStore = useTaskStore();
+
+// variables para los valors de los inputs
+const name = ref('');
+const description = ref('');
+
 // Arrow function para crear tareas.
 const addTask = () => {
 if(name.value.length === 0 || description.value.length === 0){
     // Primero comprobamos que ningún campo del input esté vacío y lanzamos el error con un timeout para informar al user.
-
     showErrorMessage.value = true;
     errorMessage.value = 'The task title or description is empty';
     setTimeout(() => {
@@ -42,15 +59,17 @@ if(name.value.length === 0 || description.value.length === 0){
     }, 5000);
 
 } else {
-    // Aquí mandamos los valores a la store para crear la nueva Task. Esta parte de la función tenéis que refactorizarla para que funcione con emit y el addTask del store se llame desde Home.vue.
-
-    taskStore.addTask(name.value, description.value);
-    name.value = '';
-    description.value = '';
+    const newTask = {
+        title: name.value,
+        description: description.value
+    }
+    emit("newTaskEmit", newTask);
+    name.value = ""
+    description.value = ""
+    console.log("¨testttttttt");
 }
 };
 
 </script>
 
 <style></style>
-  
