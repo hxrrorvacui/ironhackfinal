@@ -11,7 +11,8 @@ export const useTaskStore = defineStore("tasks", () => {
     const { data: tasks } = await supabase
       .from("tasks")
       .select("*")
-      .order("id", { ascending: false }).match({ user_id: useUserStore().user.id});
+      .order("id", { ascending: false })
+      .match({ user_id: useUserStore().user.id });
     tasksArr.value = tasks;
     return tasksArr.value;
   };
@@ -27,21 +28,28 @@ export const useTaskStore = defineStore("tasks", () => {
       },
     ]);
   };
+  //completed?
   const toggleTask = async (isComplete, id) => {
-    console.log("test");
+    //check it works
+    // console.log("????");
     const { data, error } = await supabase
       .from("tasks")
-      .update({is_complete: isComplete})
-      .match ({
+      .update({ is_complete: isComplete })
+      .match({
         id: id,
       });
+
+    // const {data, error} = await supabase.from("tasks")
+    // .update({isComplete: isComplete}).match({id: id,});
   };
-  const updateTask =  async (title, description, id) => {
+
+  // modificar tareas de supabase
+  const updateTask = async (title, description, id) => {
     const { data, error } = await supabase
       .from("tasks")
-      .update({
-        title: title,
-        description: description
+      .update({ 
+        title: title, 
+        description: description 
       })
       .match({
         id: id,
@@ -54,6 +62,6 @@ export const useTaskStore = defineStore("tasks", () => {
       id: id,
     });
   };
-  return { tasksArr, fetchTasks, addTask, deleteTask, toggleTask, updateTask }
-});
 
+  return { tasksArr, fetchTasks, addTask, deleteTask, toggleTask, updateTask };
+});
