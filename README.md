@@ -108,8 +108,6 @@ A lo largo del proyecto utilizamos enlaces como recursos para finalizarlo exitos
 
 #### Backlog
 
-- [ ] Delete/Cancel Option Task
-
 #### Day One
 
 ###### Tuesday 07, February 2023
@@ -149,7 +147,11 @@ A lo largo del proyecto utilizamos enlaces como recursos para finalizarlo exitos
 
 #### Day Five
 
-###### Monday 13, Fe
+###### Monday 13, February 2023
+
+- [ ] Delete/Cancel Option Task
+- [ ] Profiles table in SUPABASE
+- [ ] Try to begin CSS
 
 #### Day Six
 
