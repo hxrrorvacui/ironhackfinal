@@ -1,7 +1,9 @@
 <template>
 <div class="container">
     <h3>{{task.title}}</h3>
+    <p>{{task.description}}</p>
     <button @click="deleteTask">Delete</button>
+    <button @click="updateTask">Modify</button>
 </div>
 </template>
 
@@ -20,11 +22,14 @@ const props = defineProps({
 const emit = defineEmits(["deleteEmit"])
 
 const deleteTask = async() => {
-    await taskStore.deleteTask(props.task.id);
-    alert (`Your task ${props.task.title} has been deleted succesfully.`)
-    emit ("deleteEmit")
+    await taskStore.updateTask(props.task.id);
+    emit ("updateEmit")
 };
-
+const updateTask =() => {
+    if(props.task.title.value.length === 0 || props.task.description.value.length === 0) {
+        
+    }
+}
 </script>
 
 <style></style>
