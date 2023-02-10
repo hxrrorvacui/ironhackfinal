@@ -43,6 +43,9 @@ getTasks();
 const deleteTask = () => {
   console.log("deleted");
 }
+const updateTask = () => {
+  console.log("modified");
+}
     // function to send tasks to supabase
 const addTaskSupabase = (newTask) => {
   alert(`${newTask.title}
@@ -53,7 +56,7 @@ const addTaskSupabase = (newTask) => {
  let newTaskDescription = newTask.description;
  taskStore.addTask(newTaskTitle, newTaskDescription)
 //  getTasks();
- console.log("click");
+//  console.log("click");
 };
 </script>
 

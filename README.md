@@ -137,13 +137,14 @@ A lo largo del proyecto utilizamos enlaces como recursos para finalizarlo exitos
 - [x] Create Task
 - [x] Read Task
 - [ ] Update Task
-- [ ] Delete Task
+- [x] Delete Task
 
 #### Day Four
 
 ###### Friday 10, February 2023
 
-- [x]
+- [ ] Update Task
+- [ ] Review Delete Task
 
 #### Day Five
 
