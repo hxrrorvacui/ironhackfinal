@@ -1,6 +1,8 @@
 <template>
   <Nav />
-  <h1>Name: {{username}}</h1>
+  <h1>Name: {{username.split("@")[0]}}</h1>
+  <h1>Handle: @{{username.split("@")[0]}}</h1>
+  <h1>E-mail: {{username}}</h1>
   <img :src="avatar_url ? avatar_url : 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png'" alt="Profile picture">
 </template>
 
@@ -13,7 +15,7 @@
   const userStore = useUserStore();
 
   const loading = ref(false);
-  const username = ref(null);
+  const username = ref("");
   const website = ref(null);
   const avatar_url = ref(null);
 

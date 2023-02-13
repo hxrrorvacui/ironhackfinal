@@ -10,9 +10,19 @@
         <div class="input-field">
             <input type="text" placeholder="Add a Task Description - Look up Kendrick Lamar's FEAR album on spotify and listen to the whole album." v-model="description" @keypress.enter="addTask">
         </div>
-        <button @click="addTask" class="button">Add</button>
+        <br><br>
+        <div class="task-status-field">
+            <label for="taskStatus">What is the status of your task?</label>
+            <select name="task-status" id="task-status" v-model="status">
+              <option value="select"></option>
+                <option value="ASAP">Finish ASAP</option>
+                <option value="In Process">In Process</option>
+                <option value="Soon">To-Do</option>
+            </select>    
+        </div>
         <br>
-        <!-- <button @click="testFunction">test emit</button> -->
+        <button @click="addTask" class="button">Add</button>
+        <br><br>
     </div>
 </template>
 
@@ -47,27 +57,32 @@ const taskStore = useTaskStore();
 // variables para los valors de los inputs
 const name = ref('');
 const description = ref('');
+const status = ref('');
+
 
 // Arrow function para crear tareas.
-const addTask = () => {
-if(name.value.length === 0 || description.value.length === 0){
+function addTask() {
+  if(name.value.length===0||description.value.length===0) {
     // Primero comprobamos que ningún campo del input esté vacío y lanzamos el error con un timeout para informar al user.
-    showErrorMessage.value = true;
-    errorMessage.value = 'The task title or description is empty';
+    showErrorMessage.value=true;
+    errorMessage.value='The task title or description is empty';
     setTimeout(() => {
-    showErrorMessage.value = false;
+      showErrorMessage.value=false;
     }, 5000);
 
-} else {
-    const newTask = {
-        title: name.value,
-        description: description.value
-    }
+  } else {
+    const newTask={
+      title: name.value,
+      description: description.value,
+      task_status: status.value,
+    };
     emit("newTaskEmit", newTask);
-    name.value = ""
-    description.value = ""
-    console.log("¨testttttttt");
-}
+    name.value=""
+    description.value=""
+    status.value=""
+
+    console.log("testing");
+  }
 };
 
 </script>

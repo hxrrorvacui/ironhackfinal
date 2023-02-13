@@ -2,9 +2,9 @@
     <div class="container">
         <h3 :class="{completed: isComplete}">{{task.title}}</h3>
         <p :class="{completed: isComplete}">{{ task.description }}</p>
+        <p :class="{completed: isComplete}">{{ task.task_status }}</p>
         <button @click="deleteTask">Delete</button>
         <button @click="completeTask">Completed</button>
-        <!-- <button @click="testFunction">test emit</button> -->
         <button @click="showUpdateForm = true">Modify Task</button>
         <div v-if="showUpdateForm">
             <div v-if="showErrorMessage">
@@ -16,8 +16,17 @@
             <div class="input-field">
                 <input type="text" placeholder="Change Task Description" v-model="newDescription" @keypress.enter="updateTask">
             </div>
+            <div class="task-status-field">
+            <label for="taskStatus">What is the status of your task?</label>
+            <select name="task-status" id="task-status" v-model="newStatus" @keypress.enter="updateTask">
+              <option value="select"></option>
+                <option value="ASAP">Finish ASAP</option>
+                <option value="In Process">In Process</option>
+                <option value="Soon">To-Do</option>
+            </select>    
+            </div>
             <button @click="updateTask" class="button">send Modify</button>
-            <br>
+            <br>  
         </div>
     </div>
     </template>
@@ -39,6 +48,7 @@
     // variables para los valors de los inputs
     const newName = ref('');
     const newDescription = ref('');
+    const newStatus = ref(''); 
     
     
     // Función para borrar la tarea a través de la store. El problema que tendremos aquí (y en NewTask.vue) es que cuando modifiquemos la base de datos los cambios no se verán reflejados en el v-for de Home.vue porque no estamos modificando la variable tasks guardada en Home. Usad el emit para cambiar esto y evitar ningún page refresh.
@@ -77,11 +87,13 @@
         const newUpdate = {
             title: newName.value,
             description: newDescription.value,
+            task_status: newStatus.value,
             id: props.task.id
         }
         emit("updateEmit", newUpdate);
         newName.value = ""
         newDescription.value = ""
+        newStatus.value = ""
         console.log("¨test update");
     
     }
@@ -89,12 +101,7 @@
      showUpdateForm.value = false;
     }, 5000);
     };
-    
-    // jarko approach
-    // const updateTask = async() => {
-    //    await taskStore.updateTask("prssssops.task.title", "description", props.task.id);
-    //     };
-    
+
     </script>
     
     <style>

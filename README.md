@@ -87,8 +87,6 @@ Dicho esto, la pagina debía tener funcionalidades creadas con JavaScript. Entre
 Este proyecto se hizo en pareja y las tareas se dividieron a medida que ibamos avanzando. Muchos aspectos del trabajo se hicieron en conjunto con el deseo de aprender de las fortalezas de cada una en diferentes aspectos de lo que conocemos sobre codificar.
 
 
-No hemos aplicado una licencia para este proyecto. La próxima vez usaremos Creative Commons.
-
 A lo largo del proyecto utilizamos enlaces como recursos para finalizarlo exitosamente:
      <p align="left"><a href="https://youtu.be/flItyHiDm7E">Hamburger Button</a></p>
      <p align="left"><a href="https://jsonplaceholder.typicode.com/posts">API</a></p>
@@ -107,6 +105,10 @@ A lo largo del proyecto utilizamos enlaces como recursos para finalizarlo exitos
 ## Roadmap
 
 #### Backlog
+
+- [ ] Clean Code
+- [ ] Delete/Cancel Emit Option Task
+- [ ] Update task: Investigate if particular aspects of a task can be individually updated.
 
 #### Day One
 
@@ -149,9 +151,9 @@ A lo largo del proyecto utilizamos enlaces como recursos para finalizarlo exitos
 
 ###### Monday 13, February 2023
 
-- [ ] Delete/Cancel Option Task
-- [ ] Profiles table in SUPABASE
-- [ ] Try to begin CSS
+- [x] Profiles table in SUPABASE
+- [x] Add "status" button functionality to tasks
+- [ ] Begin CSS
 
 #### Day Six
 

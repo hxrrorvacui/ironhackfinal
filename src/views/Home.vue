@@ -53,11 +53,12 @@ const updateTask = ()=>{
 // function to send tasks to supabase
 const addTaskSupabase = (newTask) => {
   alert(`${newTask.title}
- ${newTask.title}`);
+ ${newTask.description}`);
  // variables para guardar cara clave/key+valor del objeto del emit dentro se su variable correspondiente para poder pasarle segun la logica de la funcion que se conecta con la base de datos en la tienda de task.js con nombre addTask
  let newTaskTitle = newTask.title;
  let newTaskDescription = newTask.description;
- taskStore.addTask(newTaskTitle, newTaskDescription)
+ let newTaskStatus = newTask.task_status;
+ taskStore.addTask(newTaskTitle, newTaskDescription, newTaskStatus)
 //  getTasks();
 //  console.log("click");
 };
@@ -65,7 +66,7 @@ const addTaskSupabase = (newTask) => {
 const addUpdateTaskSupabase = (newUpdate) => {
   console.log(newUpdate);
   alert(`${newUpdate.title} ${newUpdate.description}`);
-  taskStore.updateTask(newUpdate.title, newUpdate.description, newUpdate.id)
+  taskStore.updateTask(newUpdate.title, newUpdate.description, newUpdate.task_status, newUpdate.id)
   
 };
 </script>

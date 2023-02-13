@@ -3,7 +3,7 @@
   <div class="container">
     <div class="header">
       <div class="header-description">
-        <h3 class="header-title">Welcome to CHOOSE NAME</h3>
+        <h3 class="header-title">Welcome to OrganizeMe</h3>
           <p class="header-subtitle">Start organizing your tasks!</p>
           <p>Sign In</p>
         </div><!--end of header description div-->
