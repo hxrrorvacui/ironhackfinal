@@ -5,6 +5,7 @@ import Account from "../views/Account.vue"
 import SignIn from "../components/SignIn.vue";
 import SignUp from "../components/SignUp.vue";
 
+
 const routes = [
   {
     path: "/auth",
@@ -24,3 +25,4 @@ const router = createRouter({
 });
 
 export default router;
+

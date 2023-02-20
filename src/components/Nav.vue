@@ -74,16 +74,17 @@ const signOut = async () => {
 </script>
 
 <style>
-.navbar-img {
+/* .navbar-img {
   width: 90px;
 }
 
 nav {
-  background-color: lightgray;
+  background-color: pink;
   display: flex;
   width: 100%;
   justify-content: space-around;
   align-items: center;
+  width: 100vw;
 }
 
 nav ul {
@@ -92,5 +93,5 @@ nav ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */
 </style>
