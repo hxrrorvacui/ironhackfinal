@@ -3,11 +3,11 @@
     <Nav />
 
     <div class="content">
-      <h3>Your account:</h3>
-      <router-link to="/account">Account</router-link>
+      <h1>your new task:</h1>
+      <!-- <router-link to="/account">Account</router-link> -->
     </div>
     <NewTask  @new-task-emit="addTaskSupabase" />
-    <h1>Tasks:</h1>
+    <h1>registered tasks:</h1>
     <TaskItem @delete-emit="deleteTask" @update-emit="addUpdateTaskSupabase" v-for="task in tasks" :key="task.id" :task="task" />
   </div>
   <!-- <p v-for="task in taskStore.tasksArr" :key="task.id">{{ task }}</p> -->

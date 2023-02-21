@@ -1,13 +1,14 @@
 <template>
-  <div class="container">
-
+  <div class="container testingSingIn">
     <div class="header">
       <div class="header-description">
-        <h3 class="header-title">Register to ToDo App</h3>
-        <p class="header-subtitle">Start organizing your tasks!</p>
+        <h3 class="header-title">Register to OrganizeMe</h3>
+        <p class="header-subtitle">start organizing your tasks!</p>
       </div>
     </div>
+  </div>
 
+    <div class="box">  
     <form @submit.prevent="signUp" class="form-sign-in">
       <div class="form">
         <div class="form-input">
@@ -43,6 +44,7 @@
             required
           />
         </div>
+        <br>
         <button class="button" type="submit">Sign Up</button>
         <p>
           Have an account?

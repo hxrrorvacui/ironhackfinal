@@ -184,7 +184,7 @@ A lo largo del proyecto utilizamos enlaces como recursos para finalizarlo exitos
 
 ###### Monday 20, February 2023
 
-- [x] Continue with everything CSS
+- [ ] Continue with everything CSS
 
 #### Day Eleven
 
@@ -202,13 +202,13 @@ A lo largo del proyecto utilizamos enlaces como recursos para finalizarlo exitos
 
 ###### Thursday 23, February 2023
 
-- [x]
+- [ ] Prepare Presentation
 
 #### Day Fourteen
 
 ###### Friday 24, February 2023
 
-- [x]
+- [ ] Presentation
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

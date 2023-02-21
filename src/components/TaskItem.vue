@@ -1,11 +1,13 @@
 <template>
-    <div class="container">
+    <div class="container taskContainer box1">
         <h3 :class="{completed: isComplete}">{{task.title}}</h3>
         <p :class="{completed: isComplete}">{{ task.description }}</p>
         <p :class="{completed: isComplete}">{{ task.task_status }}</p>
+        <div class="taskButtonBox">
         <button @click="deleteTask">Delete</button>
         <button @click="completeTask">Completed</button>
         <button @click="showUpdateForm = true">Modify Task</button>
+        </div>
         <div v-if="showUpdateForm">
             <div v-if="showErrorMessage">
                 <p class="error-text">{{ errorMessage }}</p>

@@ -1,5 +1,6 @@
 <template>
-    <h1>Add a new Task</h1>
+  <div class="box2">
+    <h3>Add a new Task</h3>
     <div v-if="showErrorMessage">
         <p class="error-text">{{ errorMessage }}</p>
     </div>
@@ -21,9 +22,10 @@
             </select>    
         </div>
         <br>
-        <button @click="addTask" class="button">Add</button>
+        <button @click="addTask" class="button button-add">Add</button>
         <br><br>
     </div>
+  </div>
 </template>
 
 <script setup>

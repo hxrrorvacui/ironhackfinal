@@ -1,14 +1,16 @@
 <template>
 
-  <div class="container">
+  <div class="container testingSingIn">
     <div class="header">
       <div class="header-description">
         <h3 class="header-title">Welcome to OrganizeMe</h3>
           <p class="header-subtitle">Start organizing your tasks!</p>
           <p>Sign In</p>
-        </div><!--end of header description div-->
+        </div> <!--end of header description div-->
     </div> <!--end of header div-->
+  </div> <!--end of container testingSignIn-->
 
+  <div class="box"> 
     <form @submit.prevent="signIn" class="form-sign-in">
       <div class="form">
         <div class="form-input">
@@ -33,6 +35,7 @@
             required
           />
         </div>
+        <br>
         <button class="button" type="submit">Sign In</button>
         <p>
           Have an account?
@@ -45,10 +48,9 @@
       </div>
   </form>
 
+  </div>
   <div v-show="errorMsg">{{errorMsg}}</div>
-
-
-  </div> <!--end of container div-->
+  <!--end of container div-->
 
 
 
