@@ -154,49 +154,49 @@ A lo largo del proyecto utilizamos enlaces como recursos para finalizarlo exitos
 
 - [x] Profiles table in SUPABASE
 - [x] Add "status" button functionality to tasks
-- [ ] Begin CSS
+- [x] Begin CSS
 
 #### Day Six
 
 ###### Tuesday 14, February 2023
 
-- [x]
+- [x] CSS Buttons
 
 #### Day Seven
 
 ###### Wednesday 15, February 2023
 
-- [x]
+- [ ]
 
 #### Day Eight
 
 ###### Thursday 16, February 2023
 
-- [x]
+- [ ]
 
 #### Day Nine
 
 ###### Friday 17, February 2023
 
-- [x]
+- [ ]
 
 #### Day Ten
 
 ###### Monday 20, February 2023
 
-- [x]
+- [x] Continue with everything CSS
 
 #### Day Eleven
 
 ###### Tuesday 21, February 2023
 
-- [x]
+- [x] Finish CSS for tasks
 
 #### Day Twelve
 
 ###### Wednesday 22, February 2023
 
-- [x]
+- [x] CSS for Home Page
 
 #### Day Thirteen
 
