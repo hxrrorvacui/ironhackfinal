@@ -178,13 +178,13 @@ input {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: 200%;
+  width: 100%;
   background-color:rgb(214, 204, 194);
   border: 2px solid rgb(115, 93, 120);
   font-family: var(--fontFamily);
   box-sizing:border-box;
   text-align: justify;
-  margin-bottom: 10px;  
+  margin-bottom: 10px; 
   border-radius: 5px;
 }
 .box2 { /*Add new task*/

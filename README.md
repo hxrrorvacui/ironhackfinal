@@ -96,6 +96,10 @@ A lo largo del proyecto utilizamos enlaces como recursos para finalizarlo exitos
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+Resources:
+
+<p align="left">(<a href=https://codepen.io/mutedblues/pen/MmPNPG></a>)Hamburger Menu</p>
+
 ### Built With
 
 <!-- Este proyecto se construyó con HTML, CSS y JavaScript. Para lanzar el proyecto a la web utilizamos Vercel y para temas de estructura organizativa y seguridad en cuanto al progreso se utilizó GitHub con multi-branching, ya que estuvimos trabajando en pareja. Asegurando que todas las versiones del proyecto no fueran afectadas de forma negativa y todo se guardara exitosamente. -->
