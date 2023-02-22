@@ -16,7 +16,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 98.8%;
+    width: 90%;
     height: 80px;
     font-family: var(--fontFamily);
     padding: 0 10px 0 10px;
@@ -35,6 +35,10 @@
   .nav-link{
     padding-left: 200px;
     display: block;
+    text-decoration: none;
+    font-family: var(--fontFamily);
+    color: var(--colorPurple);
+    font-size: 16px;
   }
 
 .log-out-welcome p{
@@ -43,9 +47,24 @@
   
 .burger {
 display: block;
+font-size: 24px;
+cursor: pointer;
+background-color: transparent;
+border: none;
+color: black;
+align-items: end;
+align-items: right;
+display: none;
 }
 
- /*home*/ 
+.menu{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-direction: row;
+}
+
 
 .box {
     display: flex;
@@ -93,7 +112,7 @@ button {
       touch-action: manipulation;
     }
     
-button:after {
+/* button:after {
       background-color: #111;
       border-radius: 8px;
       content: "";
@@ -106,7 +125,7 @@ button:after {
       transform: translate(8px, 8px);
       transition: transform .2s ease-out;
       z-index: -1;
-    }
+    } */
     
 button:hover:after {
       transform: translate(0, 0);
@@ -220,8 +239,10 @@ input {
 @media screen and (max-width: 600px) {
   nav {
     flex-direction: column;
-    justify-content: center;
-    align-items: stretch;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    height: auto;
+    direction: row;
   }
   .taskButtonBox button {
     font-size: 0.8em;
@@ -251,5 +272,21 @@ input {
   .burger-hide{
     display:none;
   }
+ .burger {
+   display: block;
+ }
+ .menu {
+   display: none;
+   flex-direction: column;
+   align-items: flex-end;
+   width: 100%;
+ }
+ .menu.show-menu {
+   display: flex;
+ }
+ .menu li {
+   margin: 2px 0;
+ }
+
 }
 /* Account View */
