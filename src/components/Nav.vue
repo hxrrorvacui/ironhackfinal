@@ -1,24 +1,20 @@
 <template>
   <nav>
-    <!-- <PersonalRouter :route="route" :buttonText="buttonText" class="logo-link"/> -->
     <router-link to="/"> Home </router-link>
-
     <ul>
       <li>
-        <router-link to="/account">Your Account</router-link>
+        <router-link class="nav-link burger" to="/account">Your Account</router-link>
       </li>
     </ul>
-
-    <div>
-      <ul>
-        <li class="log-out-welcome">
+    <ul>
+        <li class="log-out-welcome burger-hide">
           <p>Welcome, {{ userEmail.split("@")[0] }}</p>
         </li>
+        <br>
         <li>
-          <button @click="signOut" class="button">Log out</button>
+          <button @click="signOut" class="button burger">Log out</button>
         </li>
       </ul>
-    </div>
   </nav>
 </template>
 
@@ -34,7 +30,6 @@ const route = "/";
 const buttonText = "Todo app";
 const userName = ref("");
 // constant to save a variable that will get the user from store with a computed function imported from vue
-// const getUser = computed(() => useUserStore().user);
 const getUser = computed(() => useUserStore().user);
 
 // constant that calls user email from the useUSerStore
@@ -61,33 +56,6 @@ const signOut = async () => {
     throw error;
   }
 };
-
-// onMounted(() => {
-//   useUserStore().fetchUser();
-//   userName.value = useUserStore().profile.username;
-//   console.log(useUserStore().user);
-// });
 </script>
 
-<style>
-/* .navbar-img {
-  width: 90px;
-}
-
-nav {
-  background-color: pink;
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-  align-items: center;
-  width: 100vw;
-}
-
-nav ul {
-  list-style: none;
-  padding-inline-start: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
-</style>
+<style></style>
