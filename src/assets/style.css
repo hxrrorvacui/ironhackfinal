@@ -183,13 +183,14 @@ input {
   box-sizing:border-box;
   text-align: justify;
   margin-left: 5px;
+  margin-bottom: 20px;
   border-radius: 5px;
 }
 .box2 { /*Add new task*/
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 30%;
+  width: 60%;
   background-color: rgb(214, 204, 194);
   border: 2px solid rgb(115, 93, 120);
   border-radius: 5px;
