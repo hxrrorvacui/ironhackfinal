@@ -10,8 +10,7 @@
         <li class="log-out-welcome burger-hide">
           <p>Welcome, {{ userEmail.split("@")[0] }}</p>
         </li>
-        <br>
-        <li>
+        <li class="logOutButton">
           <button @click="signOut" class="button burger">Log out</button>
         </li>
       </ul>

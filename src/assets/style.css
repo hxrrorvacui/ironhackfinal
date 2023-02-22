@@ -52,20 +52,23 @@
 
 .box {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     position: relative;
-    max-width: 50vw;
+    width: 450px;
+    height: 250px;
     background-color:rgb(214, 204, 194);
     font-family: var(--fontFamily);
     box-sizing: content-box;
     border-radius: 5px;
     text-align:right;
     margin: auto;
+    align-content: space-between;
 
 } 
 .form {
-  text-align:justify
+  text-align:justify;
+  margin: 0 5px 0 5px;
 }
 
 button {
@@ -139,6 +142,9 @@ h1 {
 font-weight: 400;
 font-size: 16px;
 }
+input {
+  width: 98%;
+}
 
 /* SignUp Component */
 
@@ -185,12 +191,12 @@ font-size: 16px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 50%;
+  width: 30%;
   background-color: rgb(214, 204, 194);
   border-radius: 5px;
   font-family: var(--fontFamily);
   padding: 5px; /* adjust as needed */
-  margin: auto; /* adjust as needed */
+  margin: 0 0 0 2px; /* adjust as needed */
 }
 .button-add{
   align-self: left;
