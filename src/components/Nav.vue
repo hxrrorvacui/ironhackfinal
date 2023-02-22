@@ -1,12 +1,12 @@
 <template>
   <nav>
     <router-link to="/"> Home </router-link>
-    <ul>
+    <ul class="menu">
       <li>
         <router-link class="nav-link burger" to="/account">Your Account</router-link>
       </li>
     </ul>
-    <ul>
+    <ul class="menu">
         <li class="log-out-welcome burger-hide">
           <p>Welcome, {{ userEmail.split("@")[0] }}</p>
         </li>

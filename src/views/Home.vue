@@ -8,7 +8,9 @@
     </div>
     <NewTask  @new-task-emit="addTaskSupabase" />
     <h1>registered tasks:</h1>
+    <div class="taskContainer">
     <TaskItem @delete-emit="deleteTask" @update-emit="addUpdateTaskSupabase" v-for="task in tasks" :key="task.id" :task="task" />
+    </div>
   </div>
   <!-- <p v-for="task in taskStore.tasksArr" :key="task.id">{{ task }}</p> -->
 </template>

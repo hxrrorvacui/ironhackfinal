@@ -42,12 +42,9 @@
 }
   
 .burger {
-
+display: block;
 }
 
-.burger-hide{
-
-}
  /*home*/ 
 
 .box {
@@ -58,6 +55,7 @@
     width: 450px;
     height: 250px;
     background-color:rgb(214, 204, 194);
+    border: 2px solid rgb(115, 93, 120);
     font-family: var(--fontFamily);
     box-sizing: content-box;
     border-radius: 5px;
@@ -178,13 +176,13 @@ input {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 100%;
+  width: 60%;
   background-color:rgb(214, 204, 194);
   border: 2px solid rgb(115, 93, 120);
   font-family: var(--fontFamily);
   box-sizing:border-box;
   text-align: justify;
-  margin-bottom: 10px; 
+  margin-left: 5px;
   border-radius: 5px;
 }
 .box2 { /*Add new task*/
@@ -193,10 +191,11 @@ input {
   justify-content: center;
   width: 30%;
   background-color: rgb(214, 204, 194);
+  border: 2px solid rgb(115, 93, 120);
   border-radius: 5px;
   font-family: var(--fontFamily);
   padding: 5px; /* adjust as needed */
-  margin: 0 0 0 2px; /* adjust as needed */
+  margin-left: 20px; /* adjust as needed */
 }
 .button-add{
   align-self: left;
@@ -231,13 +230,21 @@ input {
   .box2 {
     flex-direction: column;
     justify-content: center;
-    max-width: 100%;
+    width: 90%;
     padding: 10px;
+    margin: auto;
+  }
+  .taskContainer {
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
   }
   .box {
     flex-direction: column;
     justify-content: center;
-    max-width: 100%;
+    width: 100%;
     padding: 10px;
   }
   .burger-hide{
