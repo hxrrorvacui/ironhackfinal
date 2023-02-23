@@ -11,9 +11,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <img src="./src/images/HomePhoto.png" alt="Logo" width="100%" height="100%"> <!--ojo-->
+  <img src="./src/images/HomePhoto.png" alt="Logo" width="100%" height="100%"> 
   <h3 align="center">Task App</h3>
-  <a href="#PutVercelLinkHere">Visit Website</a> <!--ojo-->
+  <a href="https://ironhackfinal.vercel.app">Visit Website</a> 
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -57,8 +57,6 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About the Project
-
-<img src="./resources/readMe/screenshot.png" alt="Logo" width="100%" height="50%">
 
 <!-- Como parte del midterm de este bootcamp se nos asignó un proyecto titulado Circle Agency. El objetivo del mismo fue diseñar una página web para una compañía ficticia de diseño web que tuviera tres aspectos principales; la página debía ser "responsive" usando HTML, CSS y JavaScript con diferentes propiedades de diseño como Flexbox y Grid. Además era necesario utilizar Vercel para lanzar la página en vivo. Un reto extra del quer hablaremos más adelante fue el uso de GitHub para poder trabajar en pareja sobre un mismo documento.
 
