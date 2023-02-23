@@ -303,5 +303,8 @@ h2 {
 .home-hide{
   display: block;
 }
+.log-out-welcome{
+  display: none;
+}
 }
 /* Account View */
