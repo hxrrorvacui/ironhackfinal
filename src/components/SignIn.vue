@@ -4,8 +4,9 @@
     <div class="header">
       <div class="header-description">
         <h3 class="header-title">Welcome to OrganizeMe</h3>
+        <br>
           <p class="header-subtitle">Start organizing your tasks!</p>
-          <p>Sign In</p>
+
         </div> <!--end of header description div-->
     </div> <!--end of header div-->
   </div> <!--end of container testingSignIn-->
