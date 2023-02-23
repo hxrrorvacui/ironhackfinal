@@ -11,7 +11,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <img src="./src/images/HomePhoto.png" alt="Logo" width="80" height="80"> <!--ojo-->
+  <img src="./src/images/HomePhoto.png" alt="Logo" width="100%" height="100%"> <!--ojo-->
   <h3 align="center">Task App</h3>
   <a href="#PutVercelLinkHere">Visit Website</a> <!--ojo-->
 </div>
