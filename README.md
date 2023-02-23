@@ -64,23 +64,26 @@ La estructura del proyecto se basó en tres páginas; una landing page, una pág
 
 Dicho esto, la pagina debía tener funcionalidades creadas con JavaScript. Entre ellas, hacer un fetch de una API para mostrar información en la sección de projects. Esto debía hacerse modificando el DOM. Otra funcionalidad fue la del formulario de Contact Us que permite a los usuarios enviar su información al API al igual que mostrar una alerta en caso de poder haber enviado correctamente o no la misma.
 
-Este proyecto se hizo en pareja y las tareas se dividieron a medida que ibamos avanzando. Muchos aspectos del trabajo se hicieron en conjunto con el deseo de aprender de las fortalezas de cada una en diferentes aspectos de lo que conocemos sobre codificar.
+Este proyecto se hizo en pareja y las tareas se dividieron a medida que ibamos avanzando. Muchos aspectos del trabajo se hicieron en conjunto con el deseo de aprender de las fortalezas de cada una en diferentes aspectos de lo que conocemos sobre codificar.-->
 
-
-A lo largo del proyecto utilizamos enlaces como recursos para finalizarlo exitosamente:
-     <p align="left"><a href="https://youtu.be/flItyHiDm7E">Hamburger Button</a></p>
-     <p align="left"><a href="https://jsonplaceholder.typicode.com/posts">API</a></p>
-     <p align="left"><a href="https://getbutterfly.com/fast-and-accessible-css-only-client-logo-carousel/">Slider</a></p>
-     <p align="left"><a href="https://cssgrid-generator.netlify.app/">Grid Generator</a></p>
-     <p align="left"><a href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap">Google Font Libraries</a></p> -->
+- [x] Creation of account: users will be able to register in the application through a Sign Up process, log in with Log In and log out with Log Out.
+- [x] Task management: users will be able to create, edit, mark/unmark as completed and delete tasks.
+- [x] Data storage: the application will be connected to Supabase and all the information of the tasks and users will be saved on that platform.
+- [x] State management: Pinia stores will be used to connect with the backend and control the state of the application.
+- [x] Navigation: Vue Router will be used to navigate the page without having to do a refresh.
+- [x] Single Style: A single style file (assets/style.css) will be created and correctly inserted into main.js to access the classes and component ids.
+- [x] Responsive design: the page will be responsive and will have at least two versions: mobile and desktop.
+- [x] Deployment: the application will be deployed in Vercel.
+- [x] Handling of asynchronous operations: asynchronous operations will be handled correctly with promises or async/await.
+- [x] Documentation: a work path will be maintained in the repository's readme, updating it daily.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 Resources:
 
-<p align="left">(<a href=https://codepen.io/mutedblues/pen/MmPNPG></a>)Hamburger Menu</p>
+<p align="left"><a href="https://codepen.io/mutedblues/pen/MmPNPG">Hamburger Menu</a></p>
 
-<p align="left">(<a href=https://getcssscan.com/css-buttons-examples></a>)Hover Buttons</p>
+<p align="left"><a href="https://getcssscan.com/css-buttons-examples">Hover Buttons</a></p>
 
 ### Built With
 
