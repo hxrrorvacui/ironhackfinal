@@ -1,26 +1,8 @@
-<!-- Cheat Sheet -->
-
-## Cheat Sheet
-
-<!--Check git satus-->
-
-git status
-
-<!--Shortcut to add changes to GitHub-->
-
-git add . && git commit -m " " && git push origin master
-
-<!--Launch host app-->
-
-npm run dev
-
 <!-- Structure -->
-<!--
-*** Estoy usando enlaces de estilo "referencia" de markdown para la legibilidad.
-*** Los enlaces de referencia están encerrados en corchetes [ ] en lugar de paréntesis ( ).
-*** Vea la parte inferior de este documento para la declaración de las variables de referencia
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
+<!-- *** I am using markdown "reference" style links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of reference variables
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 <!-- "back to top" -->
 
@@ -29,7 +11,7 @@ npm run dev
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <img src="#putImgLinkHere" alt="Logo" width="80" height="80"> <!--ojo-->
+  <img src="../final-boiler-plates/src/images/Screen Shot 2023-02-23 at 12.58.00.png" alt="Logo" width="80" height="80"> <!--ojo-->
   <h3 align="center">Task App</h3>
   <a href="#PutVercelLinkHere">Visit Website</a> <!--ojo-->
 </div>
@@ -250,8 +232,30 @@ Presentation Link: [https://docs.google.com/presentation/d/1ALLf1G-I5kGCl5IGPHk-
 
 – El nivel de proyecto es muy completo y extenso. Por lo que nos tomó tiempo saber cómo organizarnos para cumplir con todos los objetivos que el proyecto conlleva.  -->
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Big Mistake
 
 <!-- Nuestros errores más grandes se dieron en nuestros commits a GitHub cuando había que hacer merge de las tres ramas. Se nos borraron avances en varias ocasiones y perdimos horas de trabajo tratando de solucionar este problema todos los días. No obstante, nos organizamos para trabajar en diferentes secciones del proyecto y evitar conflictos y solaparnos a la hora de hacer merge. Luego, con la ayuda de los profesores aprendimos a hacer copias de seguridad antes de los commits y merges para no perder nuestro progreso.
 
 Una lección que nos llevamos es que no está mal "aim high", siempre y cuando reconozcamos las limitaciones de tiempo y sea manejable el nivel del estrés del equipo. Ciertamente, nos descatacamos por lo que significa "team work makes the dream work", pero hubo momentos donde nos teníamos que recordar dónde estamos y qué debemos priorizar mantieniendo el objetivo final siempre en mente.  -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Cheat Sheet -->
+
+## Cheat Sheet
+
+<!--Check git satus-->
+
+git status
+
+<!--Shortcut to add changes to GitHub-->
+
+git add . && git commit -m " " && git push origin master
+
+<!--Launch host app-->
+
+npm run dev
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
