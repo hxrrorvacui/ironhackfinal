@@ -93,13 +93,6 @@ Resources:
 
 ## Roadmap
 
-#### Backlog
-
-- [ ] README update
-- [ ] Clean Code
-- [ ] Delete/Cancel Emit Option Task
-- [ ] Update task: Investigate if particular aspects of a task can be individually updated.
-
 #### Day One
 
 ###### Tuesday 07, February 2023
@@ -167,13 +160,13 @@ Resources:
 
 ###### Monday 20, February 2023
 
-- [ ] Continue with everything CSS
+- [x] Continue with everything CSS
 
 #### Day Eleven
 
 ###### Tuesday 21, February 2023
 
-- [ ] Finish CSS for tasks
+- [x] Finish CSS for tasks
 
 #### Day Twelve
 
@@ -187,8 +180,8 @@ Resources:
 
 ###### Thursday 23, February 2023
 
-- [ ] Final tweeks NAV CSS
-- [ ] Final tweeks Hamburger Button
+- [x] Final tweeks NAV CSS
+- [x] Final tweeks Hamburger Button
 - [ ] Finish README
 - [ ] Prepare Presentation
 
@@ -221,7 +214,7 @@ Presentation Link: [https://docs.google.com/presentation/d/1ALLf1G-I5kGCl5IGPHk-
 
 ## Acknowledgment
 
-<!-- Queremos agradecer a los tres profesores de este bootcamp en Ironhack; Diego Zito, Jarko Garrido y Aleix Abuli. Gracias por su tiempo, toda la información brindada, su paciencia y las horas extra para ayudarnos a solventar todo tipo de dudas. También, al SOC por facilitarnos este curso de modo que podamos seguir formándonos profesionalmente.  -->
+<!-- I want to thank the three teachers of this bootcamp in Ironhack; Diego Zito, Jarko Garrido and Aleix Abuli. Thank you for your time, all the information provided, your patience and the extra hours to help us solve all kinds of doubts. Also, to SOC for facilitating this course so that I can continue to grow professionally.   -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
