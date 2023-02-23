@@ -11,7 +11,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <img src="../final-boiler-plates/src/images/Screen Shot 2023-02-23 at 12.58.00.png" alt="Logo" width="80" height="80"> <!--ojo-->
+  <img src="./final-boiler-plates/src/images/HomePhoto.png" alt="Logo" width="80" height="80"> <!--ojo-->
   <h3 align="center">Task App</h3>
   <a href="#PutVercelLinkHere">Visit Website</a> <!--ojo-->
 </div>
