@@ -3,11 +3,11 @@
     <Nav />
 
     <div class="content">
-      <h1>your new task:</h1>
+      <h2>your new task:</h2>
       <!-- <router-link to="/account">Account</router-link> -->
     </div>
     <NewTask  @new-task-emit="addTaskSupabase" />
-    <h1>registered tasks:</h1>
+    <h2>registered tasks:</h2>
     <div class="taskContainer">
     <TaskItem @delete-emit="deleteTask" @update-emit="addUpdateTaskSupabase" v-for="task in tasks" :key="task.id" :task="task" />
     </div>

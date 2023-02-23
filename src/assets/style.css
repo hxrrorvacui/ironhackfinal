@@ -8,6 +8,14 @@
     --fontTitle: 'Montserrat';
     --fontBody: 'Montserrat';
 } 
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  width: 100%;
+  margin:0;
+}
 /* NAV */
    nav {
     background-color: rgb(214, 204, 194);
@@ -16,12 +24,11 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 90%;
+    width: 100%;
     height: 80px;
     font-family: var(--fontFamily);
     padding: 0 10px 0 10px;
     margin: 0 0 0 0;
-    border-radius: 2px;
   }
   nav ul {
     list-style: none;
@@ -78,13 +85,13 @@ display: none;
     font-family: var(--fontFamily);
     box-sizing: content-box;
     border-radius: 5px;
-    text-align:right;
-    margin: auto;
+    text-align:left;
+    margin: 50px auto 0 auto;
     align-content: space-between;
+
 
 } 
 .form {
-  text-align:justify;
   margin: 0 5px 0 5px;
 }
 
@@ -167,6 +174,12 @@ input {
 
 /* Home view */
 /* TASK CSS STUFF */
+h2 {
+  margin: 10px 10px 10px 10px;
+  color: var(--colorPurple);
+  font-family: var(--fontFamily);
+}
+
 .task-status-field {
   font-family: var(--fontFamily);
   font-weight: bold;
