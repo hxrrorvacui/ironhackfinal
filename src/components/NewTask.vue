@@ -46,26 +46,26 @@ const errorMessage = ref(null);
 // --
 // --
 
-// var para guardar mi metodo nativo de VUE que es autimportado, es decir no tengo que referenciarlo en "ïmport" como hacemos con el ref en la linea 18, este metodo tienes este syntax de aca:^
+//  var to save my native method of VUE that is autimported, that is to say I do not have to reference it in "ïmport" as we do with the ref in line 18, this method has this syntax here ^
 const emit = defineEmits(["testEmit", "newTaskEmit"])
 
 const testFunction = () => {
     emit("testEmit", name.value)
 }
 
-// var para guardar el uso de la ta tienda de tarea en este archivo.
+// var to save the use of the ta task store in this file.
 const taskStore = useTaskStore();
 
-// variables para los valors de los inputs
+// variables for input values
 const name = ref('');
 const description = ref('');
 const status = ref('');
 
 
-// Arrow function para crear tareas.
+// Arrow function to create tasks
 function addTask() {
   if(name.value.length===0||description.value.length===0) {
-    // Primero comprobamos que ningún campo del input esté vacío y lanzamos el error con un timeout para informar al user.
+    // First we check that no input field is empty and launch the error with a timeout to inform the user.
     showErrorMessage.value=true;
     errorMessage.value='The task title or description is empty';
     setTimeout(() => {

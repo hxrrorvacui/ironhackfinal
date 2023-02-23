@@ -44,16 +44,16 @@
     const props = defineProps({
         task: Object,
     });
-    //variables para mostrar error si no hay info en los inputs al modificar la task
+    //variables to show error if there is no input info when modifying the task
     const errorMessage = ref(null);
     const showErrorMessage = ref(false);
-    // variables para los valors de los inputs
+    // variables for the input values
     const newName = ref('');
     const newDescription = ref('');
     const newStatus = ref(''); 
     
     
-    // Función para borrar la tarea a través de la store. El problema que tendremos aquí (y en NewTask.vue) es que cuando modifiquemos la base de datos los cambios no se verán reflejados en el v-for de Home.vue porque no estamos modificando la variable tasks guardada en Home. Usad el emit para cambiar esto y evitar ningún page refresh.
+    // Function to delete the task through the store. The problem we will have here (and in NewTask.vue) is that when we modify the database the changes will not be reflected in the v-for of Home.vue because we are not modifying the tasks variable saved in Home. Use the emit to change this and avoid any page refresh.
     const emit = defineEmits(["deleteEmit", "testEmit", "updateEmit"])
     
     // const testFunction = () => {
@@ -78,7 +78,7 @@
     //new test
     const updateTask = () => {
         if(newName.value.length === 0 || newDescription.value.length === 0){
-        // Primero comprobamos que ningún campo del input esté vacío y lanzamos el error con un timeout para informar al user.
+        // First we check that no input field is empty and launch the error with a timeout to inform the user.
         showErrorMessage.value = true;
         errorMessage.value = 'The task title or description is empty';
         setTimeout(() => {
