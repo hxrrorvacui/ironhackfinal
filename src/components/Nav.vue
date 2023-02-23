@@ -6,7 +6,7 @@
       <li>
         <router-link class="nav-link" to="/account">Your Account</router-link>
       </li>
-      <li class="log-out-welcome burger-hide home-hide" v-if="userEmail">
+      <li class="log-out-welcome home-hide" v-if="userEmail">
         <p>Welcome, {{ userEmail.split("@")[0] }}</p>
       </li>
       <li v-if="userEmail">
