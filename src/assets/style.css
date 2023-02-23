@@ -257,6 +257,9 @@ h2 {
     height: auto;
     direction: row;
   }
+  .nav-link{
+    padding: 0 0 0 0;
+  }
   .taskButtonBox button {
     font-size: 0.8em;
     padding: 0.25em 0.5em;
@@ -291,7 +294,7 @@ h2 {
  .menu {
    display: none;
    flex-direction: column;
-   align-items: flex-end;
+   align-items: center;
    width: 100%;
  }
  .menu.show-menu {

@@ -172,19 +172,13 @@ Resources:
 
 ###### Wednesday 15, February 2023
 
-- [ ]
-
 #### Day Eight
 
 ###### Thursday 16, February 2023
 
-- [ ]
-
 #### Day Nine
 
 ###### Friday 17, February 2023
-
-- [ ]
 
 #### Day Ten
 
@@ -202,12 +196,17 @@ Resources:
 
 ###### Wednesday 22, February 2023
 
-- [ ] CSS for Home Page
+- [x] CSS for homepage
+- [x] CSS for task tables
+- [x] Hamburger Button
 
 #### Day Thirteen
 
 ###### Thursday 23, February 2023
 
+- [ ] Final tweeks NAV CSS
+- [ ] Final tweeks Hamburger Button
+- [ ] Finish README
 - [ ] Prepare Presentation
 
 #### Day Fourteen

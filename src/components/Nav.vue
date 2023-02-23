@@ -12,7 +12,7 @@
         <button @click="signOut" class="button">Log out</button>
       </li>
     </ul>
-    <button class="burger button-burger " @click="showMenu = !showMenu">☰</button>
+    <button class="burger button-burger" @click="showMenu = !showMenu">☰</button>
   </nav>
 </template>
 
