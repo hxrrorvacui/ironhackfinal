@@ -155,13 +155,15 @@ h1 {
 
 /* CSS FOR SING IN-UP */
 .header {
+  display: flex;
+  justify-content: space-around;
   background-color: rgb(115, 93, 120);
-  border-radius: 10px;
-  box-sizing: content-box;
-  text-align: center;
+  align-items: center;
   font-family: var(--fontFamily);
   color: white;
+  width: 100%;
 }
+
 .input-field {
 font-weight: 400;
 font-size: 16px;
