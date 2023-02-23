@@ -3,6 +3,7 @@
     <div class="header">
       <div class="header-description">
         <h3 class="header-title">Register to OrganizeMe</h3>
+        <br>
         <p class="header-subtitle">start organizing your tasks!</p>
       </div>
     </div>

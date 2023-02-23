@@ -162,6 +162,7 @@ h1 {
   font-family: var(--fontFamily);
   color: white;
   width: 100vw;
+  height: 70px;
 }
 
 .input-field {

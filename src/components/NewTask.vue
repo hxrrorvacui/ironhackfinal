@@ -6,10 +6,10 @@
     </div>
     <div>
         <div class="input-field">
-            <input type="text" placeholder="Add a Task Title - Listen to Kendrick Lamar" v-model="name">
+            <input type="text" placeholder="Add a Task Title" v-model="name">
         </div>
         <div class="input-field">
-            <input type="text" placeholder="Add a Task Description - Look up Kendrick Lamar's FEAR album on spotify and listen to the whole album." v-model="description" @keypress.enter="addTask">
+            <input type="text" placeholder="Add a Task Description" v-model="description" @keypress.enter="addTask">
         </div>
         <br><br>
         <div class="task-status-field">
