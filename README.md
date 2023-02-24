@@ -221,15 +221,15 @@ My first challenge was Vue.3! In my mind this is a very abstract framework. The 
 
 The second challenge was CSS. The struggle of trying to understand how to reference correctly in a short period of time intensified in the design aspect of the project. I might have underestimated CSS a bit if I want to be honest, given the fact that I'd executed it greatly in the midterm. Never again!
 
-For this reason, the design of my project is very simple. I call it an ode to the 90's.
+For this reason, the design of my project is very simple. I call it an ode to the 90's <3
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Big Mistake
 
-One of my biggest mistakes throughout this project was not making precise annotations in all of my coding. This would've helped much more with my difficulties referencing code in different component windows and CSS.
+One of my biggest mistakes throughout this project was not making precise annotations in all of my coding. This would've helped much more with my difficulties I had referencing code in different component windows and then with CSS.
 
-Another big mistake was not understanding glitches and sudden changes in the format of my page, for both the desktop and the mobile version. I would sometimes spend hours trying to figure out how something I hadn't touched changed, a table task for example, and I had to face the decision making of just doing another thing what worked and forgetting about the work I already putted in. In the end, you have to do what you have to do to get it done.
+Another big mistake was not understanding glitches and sudden changes in the format of my page, for both the desktop and the mobile version. I would sometimes spend hours trying to figure out how something I hadn't touched, changed another element that had nothing to do with what I as working with... or so I thougt. A couple of times, I had to face the decision of writing another code that worked and forget about the hours I had already put in. In the end, you have to do what you have to do to get it done!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
