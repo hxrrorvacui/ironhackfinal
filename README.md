@@ -54,13 +54,11 @@
   </ol>
 </details>
 
-<!-- ABOUT THE PROJECT -->
-
 ## About the Project
 
-<!-- As part of the final project of this bootcamp I was assigned a project entitled Tasks App. The goal was to design a web application that lets you create tasks tables to help organize your day-to-day responsibilities. The three main aspects of this web app is that we programmed it using Vue 3 while also applying HTML, CSS and JavaScript. It was also necessary to use Vercel to launch the live page and Supabase to handle the backend aspect of the project.
+As part of the final project of this bootcamp I was assigned a project entitled Tasks App. The goal was to design a web application that lets you create tasks tables to help organize your day-to-day responsibilities. The three main aspects of this web app is that we programmed it using Vue 3 while also applying HTML, CSS and JavaScript. It was also necessary to use Vercel to launch the live page and Supabase to handle the backend aspect of the project.
 
-These were the guidelines established to develop the project:-->
+These were the guidelines established to develop the project:
 
 - [x] Creation of account: users will be able to register in the application through a Sign Up process, log in with Log In and log out with Log Out.
 - [x] Task management: users will be able to create, edit, mark/unmark as completed and delete tasks.
@@ -73,7 +71,7 @@ These were the guidelines established to develop the project:-->
 - [x] Handling of asynchronous operations: asynchronous operations will be handled correctly with promises or async/await.
 - [x] Documentation: a work path will be maintained in the repository's readme, updating it daily.
 
-<!-- As an added value to the requirements, I added a priority selection button for the tasks tables where users can specify the status of their project by importance.-->
+* As an added value to the requirements, I added a priority selection button for the tasks tables where users can specify the status of their project by importance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,7 +83,7 @@ Resources:
 
 ### Built With
 
-<!-- This project was built with VUE 3, using HTML, JavaScript and CSS. To launch the project to the web we used Vercel and for organizational structure and security issues regarding the progress GitHub was used for updating and monitoring the project. We also used Supabase to handle authentication and backend. It was cool to learn a bit of backend as well. -->
+This project was built with VUE 3, using HTML, JavaScript and CSS. To launch the project to the web we used Vercel and for organizational structure and security issues regarding the progress GitHub was used for updating and monitoring the project. We also used Supabase to handle authentication and backend. It was cool to learn a bit of backend as well.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -199,63 +197,55 @@ Occupational Hazard Course
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Acerca de mi -->
-
 ## About
 
-<!--
-This is my first solo project for the Front-End Development Bootcamp and first time ever learning about programming. I am originally an advertising creative, but worked three years in a company dedicated to AI doing Language Data Analysis. For this reason, I was interested in exploring more profundly the world of tech and programming. It has definitely been a challenge! There's been lots of laughter and tears, but definitely worth the ride.-->
+This is my first solo project for the Front-End Development Bootcamp and first time ever learning about programming. I am originally an advertising creative, but worked three years in a company dedicated to AI doing Language Data Analysis. For this reason, I was interested in exploring more profundly the world of tech and programming. It has definitely been a challenge! There's been lots of laughter and tears, but definitely worth the ride.
 
-<!--
 Laura Isabel Anguita Vicens: [https://www.linkedin.com/in/lianguita/](https://www.linkedin.com/in/lianguita/)
 
-Project Links: [https://ironhackfinal.vercel.app/auth/login)
-               [https://ironhackfinal.vercel.app/auth/login)
+Project Links: [https://ironhackfinal.vercel.app/auth/login]
+(https://ironhackfinal.vercel.app/auth/login)
 
-Presentation Link: [https://docs.google.com/presentation/d/1FFxZDt2o9PJiZuqCQw1SSoCd4201yTQwvozLc9bszH0/edit#slide=id.p](https://docs.google.com/presentation/d/1FFxZDt2o9PJiZuqCQw1SSoCd4201yTQwvozLc9bszH0/edit#slide=id.p) -->
+Presentation Link: [https://docs.google.com/presentation/d/1FFxZDt2o9PJiZuqCQw1SSoCd4201yTQwvozLc9bszH0/edit#slide=id.p](https://docs.google.com/presentation/d/1FFxZDt2o9PJiZuqCQw1SSoCd4201yTQwvozLc9bszH0/edit#slide=id.p)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGMENTS -->
-
 ## Acknowledgment
 
-<!-- I want to thank the three teachers of this bootcamp in Ironhack; Diego Zito, Jarko Garrido and Aleix Abuli. Thank you for your time, all the information provided, your patience and the extra hours to help us solve all kinds of doubts. Big thanks to my partner in crime during this journey, Ikerne. Without you this would've been impossible. Finally, I'd like to thank the SOC for facilitating this course so that I can continue to grow professionally.   -->
+I want to thank the three teachers of this bootcamp in Ironhack; Diego Zito, Jarko Garrido and Aleix Abuli. Thank you for your time, all the information provided, your patience and the extra hours to help us solve all kinds of doubts. Big thanks to my partner in crime during this journey, Ikerne. Without you this would've been impossible. Finally, I'd like to thank the SOC for facilitating this course so that I can continue to grow professionally.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Technical Challenge
 
-<!-- – My first challenge was Vue.3! In my mind this is a very abstract framework. The quantity of components and how to reference code correctly in each was overwhelming for me.
+– My first challenge was Vue.3! In my mind this is a very abstract framework. The quantity of components and how to reference code correctly in each was overwhelming for me.
 
 – That being said, the second challenge was CSS. The struggle of trying to learn how to reference correctly in a certain amount of time, intensified in the design aspect of the project.
 
-– For this reason, the visual aspect of my project is very simple. I spent too many hours figuring out sudden errors, but hey, at the end I finished a project with all of its requirements. I call it an ode to the 90's.  -->
+– For this reason, the visual aspect of my project is very simple. I spent too many hours figuring out sudden errors, but hey, at the end I finished a project with all of its requirements. I call it an ode to the 90's.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Big Mistake
 
-<!-- One of my biggest mistakes throughout this project was not making precise annotations in all of my coding. This would've helped much more with my difficulties referencing code in different component windows and CSS.
+One of my biggest mistakes throughout this project was not making precise annotations in all of my coding. This would've helped much more with my difficulties referencing code in different component windows and CSS.
 
-Another big mistake was not understanding glitches and sudden changes in the format of my page, for both the desktop and the mobile version. I would sometimes spend hours trying to figure out how something I hadn't touched changed, a table task for example, and I had to face the decision making of just doing another thing what worked and forgetting about the work I already putted in. In the end, you have to do what you have to do to get it done. -->
+Another big mistake was not understanding glitches and sudden changes in the format of my page, for both the desktop and the mobile version. I would sometimes spend hours trying to figure out how something I hadn't touched changed, a table task for example, and I had to face the decision making of just doing another thing what worked and forgetting about the work I already putted in. In the end, you have to do what you have to do to get it done.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Cheat Sheet -->
-
 ## Cheat Sheet
 
-<!--Check git satus-->
+- Check git satus
 
-git status
+  git status
 
-<!--Shortcut to add changes to GitHub-->
+- Shortcut to add changes to GitHub:
 
-git add . && git commit -m " " && git push origin master
+  git add . && git commit -m " " && git push origin master
 
-<!--Launch host app-->
+- Launch host app:
 
-npm run dev
+  npm run dev
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
