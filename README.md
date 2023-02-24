@@ -58,13 +58,9 @@
 
 ## About the Project
 
-<!-- Como parte del midterm de este bootcamp se nos asignó un proyecto titulado Circle Agency. El objetivo del mismo fue diseñar una página web para una compañía ficticia de diseño web que tuviera tres aspectos principales; la página debía ser "responsive" usando HTML, CSS y JavaScript con diferentes propiedades de diseño como Flexbox y Grid. Además era necesario utilizar Vercel para lanzar la página en vivo. Un reto extra del quer hablaremos más adelante fue el uso de GitHub para poder trabajar en pareja sobre un mismo documento.
+<!-- As part of the final project of this bootcamp I was assigned a project entitled Tasks App. The goal was to design a web application that lets you create tasks tables to help organize your day-to-day responsibilities. The three main aspects of this web app is that we programmed it using Vue 3 while also applying HTML, CSS and JavaScript. It was also necessary to use Vercel to launch the live page and Supabase to handle the backend aspect of the project.
 
-La estructura del proyecto se basó en tres páginas; una landing page, una página de proyectos y una página de Contact Us. En la landing page se muestra información general de Circle Agency. En la sección de projects se destacan los proyectos de la empresa y en el Contact Us se creó un formulario de contactos para que los usuarios se comuniquen con la empresa.
-
-Dicho esto, la pagina debía tener funcionalidades creadas con JavaScript. Entre ellas, hacer un fetch de una API para mostrar información en la sección de projects. Esto debía hacerse modificando el DOM. Otra funcionalidad fue la del formulario de Contact Us que permite a los usuarios enviar su información al API al igual que mostrar una alerta en caso de poder haber enviado correctamente o no la misma.
-
-Este proyecto se hizo en pareja y las tareas se dividieron a medida que ibamos avanzando. Muchos aspectos del trabajo se hicieron en conjunto con el deseo de aprender de las fortalezas de cada una en diferentes aspectos de lo que conocemos sobre codificar.-->
+These were the guidelines established to develop the project:-->
 
 - [x] Creation of account: users will be able to register in the application through a Sign Up process, log in with Log In and log out with Log Out.
 - [x] Task management: users will be able to create, edit, mark/unmark as completed and delete tasks.
@@ -77,21 +73,25 @@ Este proyecto se hizo en pareja y las tareas se dividieron a medida que ibamos a
 - [x] Handling of asynchronous operations: asynchronous operations will be handled correctly with promises or async/await.
 - [x] Documentation: a work path will be maintained in the repository's readme, updating it daily.
 
+<!-- As an added value to the requirements, I added a priority selection button for the tasks tables where users can specify the status of their project by importance.-->
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 Resources:
 
-<p align="left"><a href="https://codepen.io/mutedblues/pen/MmPNPG">Hamburger Menu</a></p>
+- <p align="left"><a href="https://codepen.io/mutedblues/pen/MmPNPG">Hamburger Menu</a></p>
 
-<p align="left"><a href="https://getcssscan.com/css-buttons-examples">Hover Buttons</a></p>
+- <p align="left"><a href="https://getcssscan.com/css-buttons-examples">Hover Buttons</a></p>
 
 ### Built With
 
-<!-- Este proyecto se construyó con HTML, CSS y JavaScript. Para lanzar el proyecto a la web utilizamos Vercel y para temas de estructura organizativa y seguridad en cuanto al progreso se utilizó GitHub con multi-branching, ya que estuvimos trabajando en pareja. Asegurando que todas las versiones del proyecto no fueran afectadas de forma negativa y todo se guardara exitosamente. -->
+<!-- This project was built with VUE 3, using HTML, JavaScript and CSS. To launch the project to the web we used Vercel and for organizational structure and security issues regarding the progress GitHub was used for updating and monitoring the project. We also used Supabase to handle authentication and backend. It was cool to learn a bit of backend as well. -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Roadmap
+
+Note: from February 13-17 I was taking an occupational hazard course, therefore will spend less time working on the project.
 
 #### Day One
 
@@ -148,13 +148,19 @@ Resources:
 
 ###### Wednesday 15, February 2023
 
+Occupational Hazard Course
+
 #### Day Eight
 
 ###### Thursday 16, February 2023
 
+Occupational Hazard Course
+
 #### Day Nine
 
 ###### Friday 17, February 2023
+
+Occupational Hazard Course
 
 #### Day Ten
 
@@ -182,14 +188,14 @@ Resources:
 
 - [x] Final tweeks NAV CSS
 - [x] Final tweeks Hamburger Button
-- [ ] Finish README
-- [ ] Prepare Presentation
+- [x] Prepare Presentation
 
 #### Day Fourteen
 
 ###### Friday 24, February 2023
 
-- [ ] Presentation
+- [x] Finish README
+- [x] Presentation
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -198,15 +204,15 @@ Resources:
 ## About
 
 <!--
-Como ya hemos mencionado, este proyecto se realizó en pareja por Laura Isabel Anguita e Ikerne Sanz. Para ambas es la primera vez que nos exponemos al mundo de la programación Front-End, aunque sí estuvimos trabajando por tres años, en una empresa dedicada a AI haciendo Language Data Analysis. -->
+This is my first solo project for the Front-End Development Bootcamp and first time ever learning about programming. I am originally an advertising creative, but worked three years in a company dedicated to AI doing Language Data Analysis. For this reason, I was interested in exploring more profundly the world of tech and programming. It has definitely been a challenge! There's been lots of laughter and tears, but definitely worth the ride.-->
 
 <!--
-Ikerne - [https://www.linkedin.com/in/ikernesg/](https://www.linkedin.com/in/ikernesg/) - ikernesanz@gmail.com
+Laura Isabel Anguita Vicens: [https://www.linkedin.com/in/lianguita/](https://www.linkedin.com/in/lianguita/)
 
-Project Links: [https://midterm-ironhack-4d5i2r2pt-ikerne.vercel.app/](https://midterm-ironhack-4d5i2r2pt-ikerne.vercel.app/)
-              & [https://github.com/Ikerne/midterm-ironhack](https://github.com/Ikerne/midterm-ironhack)
+Project Links: [https://ironhackfinal.vercel.app/auth/login)
+               [https://ironhackfinal.vercel.app/auth/login)
 
-Presentation Link: [https://docs.google.com/presentation/d/1ALLf1G-I5kGCl5IGPHk-GV33y0MsDX1cV2_IcLf5C8I/edit#slide=id.p](https://docs.google.com/presentation/d/1ALLf1G-I5kGCl5IGPHk-GV33y0MsDX1cV2_IcLf5C8I/edit#slide=id.p) -->
+Presentation Link: [https://docs.google.com/presentation/d/1FFxZDt2o9PJiZuqCQw1SSoCd4201yTQwvozLc9bszH0/edit#slide=id.p](https://docs.google.com/presentation/d/1FFxZDt2o9PJiZuqCQw1SSoCd4201yTQwvozLc9bszH0/edit#slide=id.p) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -214,25 +220,25 @@ Presentation Link: [https://docs.google.com/presentation/d/1ALLf1G-I5kGCl5IGPHk-
 
 ## Acknowledgment
 
-<!-- I want to thank the three teachers of this bootcamp in Ironhack; Diego Zito, Jarko Garrido and Aleix Abuli. Thank you for your time, all the information provided, your patience and the extra hours to help us solve all kinds of doubts. Also, to SOC for facilitating this course so that I can continue to grow professionally.   -->
+<!-- I want to thank the three teachers of this bootcamp in Ironhack; Diego Zito, Jarko Garrido and Aleix Abuli. Thank you for your time, all the information provided, your patience and the extra hours to help us solve all kinds of doubts. Big thanks to my partner in crime during this journey, Ikerne. Without you this would've been impossible. Finally, I'd like to thank the SOC for facilitating this course so that I can continue to grow professionally.   -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Technical Challenge
 
-<!-- – El primer reto que nos encontramos fue poder trabajar exitosamente con diferentes branches dentro de GitHub.
+<!-- – My first challenge was Vue.3! In my mind this is a very abstract framework. The quantity of components and how to reference code correctly in each was overwhelming for me.
 
-– El segundo reto ha sido la parte de JavaScript en la sección de Projects y Contact Us. Al ser la primera vez que nos enfrentamos a este lenguaje en temas de proyecto.
+– That being said, the second challenge was CSS. The struggle of trying to learn how to reference correctly in a certain amount of time, intensified in the design aspect of the project.
 
-– El nivel de proyecto es muy completo y extenso. Por lo que nos tomó tiempo saber cómo organizarnos para cumplir con todos los objetivos que el proyecto conlleva.  -->
+– For this reason, the visual aspect of my project is very simple. I spent too many hours figuring out sudden errors, but hey, at the end I finished a project with all of its requirements. I call it an ode to the 90's.  -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Big Mistake
 
-<!-- Nuestros errores más grandes se dieron en nuestros commits a GitHub cuando había que hacer merge de las tres ramas. Se nos borraron avances en varias ocasiones y perdimos horas de trabajo tratando de solucionar este problema todos los días. No obstante, nos organizamos para trabajar en diferentes secciones del proyecto y evitar conflictos y solaparnos a la hora de hacer merge. Luego, con la ayuda de los profesores aprendimos a hacer copias de seguridad antes de los commits y merges para no perder nuestro progreso.
+<!-- One of my biggest mistakes throughout this project was not making precise annotations in all of my coding. This would've helped much more with my difficulties referencing code in different component windows and CSS.
 
-Una lección que nos llevamos es que no está mal "aim high", siempre y cuando reconozcamos las limitaciones de tiempo y sea manejable el nivel del estrés del equipo. Ciertamente, nos descatacamos por lo que significa "team work makes the dream work", pero hubo momentos donde nos teníamos que recordar dónde estamos y qué debemos priorizar mantieniendo el objetivo final siempre en mente.  -->
+Another big mistake was not understanding glitches and sudden changes in the format of my page, for both the desktop and the mobile version. I would sometimes spend hours trying to figure out how something I hadn't touched changed, a table task for example, and I had to face the decision making of just doing another thing what worked and forgetting about the work I already putted in. In the end, you have to do what you have to do to get it done. -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
