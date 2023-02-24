@@ -201,10 +201,9 @@ Occupational Hazard Course
 
 This is my first solo project for the Front-End Development Bootcamp and first time ever learning about programming. I am originally an advertising creative, but worked three years in a company dedicated to AI doing Language Data Analysis. For this reason, I was interested in exploring more profundly the world of tech and programming. It has definitely been a challenge! There's been lots of laughter and tears, but definitely worth the ride.
 
-Laura Isabel Anguita Vicens: [https://www.linkedin.com/in/lianguita/](https://www.linkedin.com/in/lianguita/)
+Check out my LinkedIn! [https://www.linkedin.com/in/lianguita/](https://www.linkedin.com/in/lianguita/)
 
-Project Links: [https://ironhackfinal.vercel.app/auth/login]
-(https://ironhackfinal.vercel.app/auth/login)
+Project Links: https://ironhackfinal.vercel.app/auth/login
 
 Presentation Link: [https://docs.google.com/presentation/d/1FFxZDt2o9PJiZuqCQw1SSoCd4201yTQwvozLc9bszH0/edit#slide=id.p](https://docs.google.com/presentation/d/1FFxZDt2o9PJiZuqCQw1SSoCd4201yTQwvozLc9bszH0/edit#slide=id.p)
 
@@ -218,11 +217,11 @@ I want to thank the three teachers of this bootcamp in Ironhack; Diego Zito, Jar
 
 ## Technical Challenge
 
-– My first challenge was Vue.3! In my mind this is a very abstract framework. The quantity of components and how to reference code correctly in each was overwhelming for me.
+My first challenge was Vue.3! In my mind this is a very abstract framework. The quantity of components and how to reference code correctly in each was overwhelming for me.
 
-– That being said, the second challenge was CSS. The struggle of trying to learn how to reference correctly in a certain amount of time, intensified in the design aspect of the project.
+The second challenge was CSS. The struggle of trying to understand how to reference correctly in a short period of time intensified in the design aspect of the project. I might have underestimated CSS a bit if I want to be honest, given the fact that I'd executed it greatly in the midterm. Never again!
 
-– For this reason, the visual aspect of my project is very simple. I spent too many hours figuring out sudden errors, but hey, at the end I finished a project with all of its requirements. I call it an ode to the 90's.
+For this reason, the design of my project is very simple. I call it an ode to the 90's.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
