@@ -235,7 +235,7 @@ Another big mistake was not understanding glitches and sudden changes in the for
 
 ## Cheat Sheet
 
-- Check git satus
+- Check git satus:
 
   git status
 
